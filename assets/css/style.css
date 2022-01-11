@@ -57,24 +57,49 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#footer-menu {
+    font-size: 110%;
+    letter-spacing: 4px;    
+}
+
+#footer-menu {
+    line-height: 50px;
+}
+
+#footer-menu li {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#footer-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#footer-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* hero-image */
 
 #hero-outer {
-    height: 600px;
+    height: 200px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
 
 #hero-image {
-    height: 600px;
+    height: 200px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
+    background: url(../images/umbrellas-g1141eef7e_1920.jpg) no-repeat bottom center;
 
 /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -104,17 +129,17 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(47, 209, 109, 0.685);
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 10px;
+    right: 75px;
 
     position: absolute;
 }
 
-/* club ethos */
+/* ethos */
 
-#club-ethos {
+#ethos {
     height: 600px;
 }
 
@@ -172,8 +197,8 @@ hr {
 }
 
 #circle-container {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -183,7 +208,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    background: url('../images/girl-gb97b8536b_1280.jpg') no-repeat top center;
     height: 100%;
     border-radius: 50%;
 }
@@ -191,7 +216,7 @@ hr {
 /* reviews */
 
 #reviews {
-    background-image: url('../images/dublin-city.webp');
+    background-image: url('../images/umbrellas-g1141eef7e_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -203,12 +228,16 @@ hr {
     color: #fafafa;
     background-color: rgba(0,0,0, .6);
     width: 25%;
-    height: 300px;
+    height: 200px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 40px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+}
+
+#reviews h2 {
+    color: #ccc;
 }
 
 #reviews h3 {
@@ -222,7 +251,7 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -236,31 +265,18 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: #3a3a3a;
-}
-
-/* gallery */
-
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-}
-
-#photos > img {
-    width: 100%;
 }
 
 /* Form */
 
 .form-section {
     clear: left;
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    background: url('../images/pexels-sharon-mccutcheon-1146851.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 700px;
 }
 
 .signup-form {
@@ -318,7 +334,7 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -369,7 +385,7 @@ footer {
         left: 0;
     }
 
-    #club-ethos {
+    #ethos {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
