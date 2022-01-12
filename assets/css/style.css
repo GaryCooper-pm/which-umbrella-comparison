@@ -57,34 +57,6 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#footer-menu {
-    font-size: 110%;
-    letter-spacing: 4px;    
-}
-
-#footer-menu {
-    line-height: 50px;
-}
-
-#footer-menu li {
-    text-align: center;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#footer-menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#footer-menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
 /* hero-image */
 
 #hero-outer {
@@ -254,19 +226,24 @@ footer {
     height: 100px;
 }
 
-.social-networks {
+.footer-links {
+    padding: 30px;
     text-align: center;
 }
 
-.social-networks > li {
+.footer-links > li {
     display: inline;
 }
 
-.social-networks i {
-    font-size: 160%;
+.footer-links a {
+    text-decoration: none;
+    font-size: 120%;
     margin: 1%;
-    padding: 1%;
-    color: #3a3a3a;
+    color: inherit;
+}
+
+.footer-links a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Form */
