@@ -97,7 +97,7 @@ h3 {
 /* ethos */
 
 #ethos {
-    height: 600px;
+    height: 500px;
 }
 
 #left-about {
@@ -154,8 +154,8 @@ hr {
 }
 
 #circle-container {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
@@ -165,7 +165,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/girl-gb97b8536b_1280.jpg') no-repeat top center;
+    background: url('../images/girl-gb97b8536b_1280.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -272,16 +272,19 @@ footer {
     background: url('../images/pexels-sharon-mccutcheon-1146851.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 750px;
 }
 
 .signup-form {
-    margin: 50px 10% 0 0;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     left: 10%;
-    padding: 30px;
+    padding: 50px;
     position: absolute;
 }
 
