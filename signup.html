@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html">Contact Us</a>
+                    <a href="signup.html" class="active">Contact Us</a>
                 </li>
                 <li>
                     <a href="index.html">Why Us</a>
@@ -39,15 +40,21 @@
             <input class="text-input" id="fname" type="text" name="first_name" required />
             <label for="lname">Last Name</label>
             <input class="text-input" id="lname" type="text" name="last_name" required />
-            <label for="email">Email Address</label>
+            <label for="email">Email</label>
             <input class="text-input" id="email" type="email" name="email_address" required />
+            <label for="mobile">Mobile Number</label>
+            <input class="number-input" id="mobile" type="number" name="mobile_number" required />
+            <Label for="rate">Day Rate (£)</Label>
+            <input class="number-input" id="rate" type="number" name="day-rate" required />            
             <label for="contractor">Contractor</label>
             <input id="contractor" type="radio" name="preference" value="contractor" required />
             <label for="recruiter">Recruiter</label>
             <input id="recruiter" type="radio" name="preference" value="recruiter">
             <label for="employer">Employer</label>
             <input id="employer" type="radio" name="preference" value="employer">
-            <input class="join-button" type="submit" value="Sign Me Up!">       
+            <br>
+            <div class="g-recaptcha" style="overflow: hidden" data-sitekey="6Ld-hQoeAAAAAO9Gcqq9L6pqQMjlpJIiUXRBQeG7"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld-hQoeAAAAAO9Gcqq9L6pqQMjlpJIiUXRBQeG7&amp;co=aHR0cHM6Ly9jaG9vc2Uud2hpY2h1bWJyZWxsYS5jby51azo0NDM.&amp;hl=en&amp;v=TDBxTlSsKAUm3tSIa0fwIqNu&amp;size=normal&amp;cb=524ur0r2q470" width="304" height="78" role="presentation" name="a-qk4cq5ilk4py" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+            <input class="join-button" type="submit" value="Compare Now">       
         </form>
     </section>
     <footer>
