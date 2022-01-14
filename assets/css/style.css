@@ -170,6 +170,8 @@ hr {
     border-radius: 50%;
 }
 
+/* privacy and cookie policy */
+
 #privacy-policy {
     margin-left: 100px;
     margin-right: 100px;
@@ -178,6 +180,28 @@ hr {
 #privacy-policy ul {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+/* cookie table */
+
+#cookie-table {
+    margin-left: 100px;
+    column-gap: 4px;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    text-align: center;
+}
+
+tr.even {
+    background-color: #bababa;
+}
+
+#cookie-th {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid #252525;
 }
 
 /* reviews */
