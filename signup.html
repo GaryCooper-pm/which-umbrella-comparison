@@ -9,18 +9,21 @@
     <meta name="keywords" content="compare umbrella companies, umbrella companies, umbrella, best umbrella company">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Compare - Which Umbrella</title>
+    <title>Which Umbrella</title>
 </head>
 
 <body>
     <header>
         <a href="index.html">
-            <h1 id="logo">Compare - Which Umbrella</h1>
+            <h1 id="logo">Which Umbrella</h1>
         </a>
         <nav>
             <ul id="menu">
                 <li>
                     <a href="signup.html" class="active">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#reviews-section">Reviews</a>
                 </li>
                 <li>
                     <a href="index.html">Why Us</a>
@@ -36,16 +39,11 @@
     <section class="form-section">
         <form class="signup-form" action="https://formdump.whichumbrella.co.uk/" method="post">
             <h2>Let's get you signed up! <i class="fas fa-file-contract"></i></h2>
-            <label for="fname">First Name</label>
-            <input class="text-input" id="fname" type="text" name="first_name" required />
-            <label for="lname">Last Name</label>
-            <input class="text-input" id="lname" type="text" name="last_name" required />
-            <label for="email">Email</label>
-            <input class="text-input" id="email" type="email" name="email_address" required />
-            <label for="mobile">Mobile Number</label>
-            <input class="number-input" id="mobile" type="number" name="mobile_number" required />
-            <Label for="rate">Day Rate (£)</Label>
-            <input class="number-input" id="rate" type="number" name="day-rate" required />            
+            <input class="text-input" id="fname" type="text" name="first_name" placeholder="First Name" required />
+            <input class="text-input" id="lname" type="text" name="last_name" placeholder="Last Name" required />
+            <input class="text-input" id="email" type="email" name="email_address" placeholder="Email" required />
+            <input class="number-input" id="mobile" type="number" name="mobile_number" placeholder="Mobile Number" required />
+            <input class="number-input" id="rate" type="number" name="day-rate" placeholder="Day Rate (£)" required />            
             <label for="contractor">Contractor</label>
             <input id="contractor" type="radio" name="preference" value="contractor" required />
             <label for="recruiter">Recruiter</label>
@@ -57,6 +55,30 @@
             <input class="join-button" type="submit" value="Compare Now">       
         </form>
     </section>
+    <a id="reviews-section">
+        <section id="reviews">
+            <div>
+                <h2>Nicola K</h2>
+                <h3>Thank you for being absolutely wonderful and so very helpful!</h3>
+                <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+            </div>
+            <div>
+                <h2>Vic S</h2>
+                <h3>Always pay on time, the RM is brilliant and always available.</h3>
+                <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+            </div>
+            <div>
+                <h2>Thomas R</h2>
+                <h3>I liked how simple you made things and the ability to compare the different umbrellas available.</h3>
+                <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+            </div>
+            <div>
+                <h2>Sarah C</h2>
+                <h3>I've just worked out you've saved me money with just a quick chat.  You're a star, thank you.</h3>
+                <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+            </div>
+        </section>
+        </a>
     <footer>
         <ul class="footer-links">
             <li>
