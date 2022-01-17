@@ -66,14 +66,14 @@ h3 {
 /* hero-image */
 
 #hero-outer {
-    height: 300px;
+    height: 250px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 300px;
+    height: 250px;
     width: 100%;
     background: url(../images/umbrella-header.jpg) no-repeat center center;
 
@@ -264,6 +264,12 @@ footer {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.logos {
+    padding-left: 30px;
+    text-align: center;
+    width: 150px;
+}
+
 /* Form */
 
 .form-section {
@@ -340,10 +346,6 @@ footer {
     background-color: #fafafa;
     color: #f16c6b;
     display: block;
-}
-
-.g-recaptcha {
-    margin-top: 20px;
 }
 
 /* Media queries */

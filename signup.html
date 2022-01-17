@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,8 +41,8 @@
             <input class="text-input" id="fname" type="text" name="first_name" placeholder="First Name" required />
             <input class="text-input" id="lname" type="text" name="last_name" placeholder="Last Name" required />
             <input class="text-input" id="email" type="email" name="email_address" placeholder="Email" required />
-            <input class="number-input" id="mobile" type="number" name="mobile_number" placeholder="Mobile Number" required />
-            <input class="number-input" id="rate" type="number" name="day-rate" placeholder="Day Rate (£)" required />            
+            <input class="number-input" id="mobile" type="tel" name="mobile_number" placeholder="Mobile Number" required />
+            <input class="number-input" id="rate" type="text" name="day-rate" placeholder="Day Rate (£)" required />            
             <label for="contractor">Contractor</label>
             <input id="contractor" type="radio" name="preference" value="contractor" required />
             <label for="recruiter">Recruiter</label>
@@ -51,12 +50,17 @@
             <label for="employer">Employer</label>
             <input id="employer" type="radio" name="preference" value="employer">
             <br>
-            <div class="g-recaptcha" style="overflow: hidden" data-sitekey="6Ld-hQoeAAAAAO9Gcqq9L6pqQMjlpJIiUXRBQeG7"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld-hQoeAAAAAO9Gcqq9L6pqQMjlpJIiUXRBQeG7&amp;co=aHR0cHM6Ly9jaG9vc2Uud2hpY2h1bWJyZWxsYS5jby51azo0NDM.&amp;hl=en&amp;v=TDBxTlSsKAUm3tSIa0fwIqNu&amp;size=normal&amp;cb=524ur0r2q470" width="304" height="78" role="presentation" name="a-qk4cq5ilk4py" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
             <input class="join-button" type="submit" value="Compare Now">       
         </form>
     </section>
     <footer>
         <ul class="footer-links">
+            <li>
+                <img src="/assets/images/fcsa_logo.png" alt="fcsa_logo" class="logos">
+            </li>
+            <li>
+                <img src="/assets/images/professional-passport-logo.png" alt="professional_passport_logo" class="logos">
+            </li>
             <li>
                 <a href="privacy-policy.html">Privacy Policy</a>
             </li>
